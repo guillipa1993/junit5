@@ -1,0 +1,29 @@
+name: "CI/CD Pipeline for Java"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ci-pipeline:
+    uses: guillipa1993/devops-pipelines-ci-cd/.github/workflows/java-ci.yml@main
+    with:
+      language: 'java'
+      java-version: 'X.X'
+      project-path: ''
+      requirements-path: ''
+      build-configuration: ''
+      additional-install-commands: ''
+      build-command: ''  
+      run-tests: true
+      run-check-code-format: true
+      run-code-analysis: true
+      run-build-artifact: true
+      run-upload-coverage: true
+      run-lint: true
+      run-clean-up: true
+      environment-variables: ''
