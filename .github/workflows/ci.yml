@@ -15,8 +15,6 @@ jobs:
       language: 'java'
       java-version: 'X.X'
       project-path: ''
-      additional-install-commands: ''
-      build-command: ''  
       run-tests: true
       run-check-code-format: true
       run-code-analysis: true
