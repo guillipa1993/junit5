@@ -14,7 +14,7 @@ jobs:
     with:
       language: 'java'
       java-version: 'X.X'
-      project-path: ''
+      project-path: '.'
       run-tests: true
       run-check-code-format: true
       run-code-analysis: true
