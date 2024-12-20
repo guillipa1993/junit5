@@ -23,7 +23,6 @@ jobs:
       run-check-code-format: true
       run-code-analysis: true
       run-lint: true
-      run-clean-up: true
       debug-mode: false
       run-tests: false
       environment-variables: ''
